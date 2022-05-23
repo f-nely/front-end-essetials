@@ -9,24 +9,21 @@
 <body>
     <!-- Block content -->
     <form action="" method="POST">
-        <!-- <fieldset name="contato" form="">
-            <legend>Preencha o formulário de contato</legend>
-        </fieldset> -->
+        <fieldset>
+            <legend>Trabalhando com inputs</legend>
 
-    
-        <!-- 
-            datalist
-            * Lista de valores com sugestões para algum elemento input
-            * Usuário poderá selecionar um dos valores ou colocar novos valores
-        -->
-        <label for="">Lista de professores:</label>
-        <datalist id="prof-list">
-            <option>Luan</option>
-            <option>Jenifer</option>
-            <option>Regis</option>
-        </datalist>
-
-        <input type="text" name="prof-list" list="prof-list">
+            <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            placeholder="Digite o seu nome"
+            size="50"
+            minlength="8"
+            maxlength="20"
+            title="Preencha o dado"
+            required
+            />
+        </fieldset>
     </form>
 </body>
 </html>
