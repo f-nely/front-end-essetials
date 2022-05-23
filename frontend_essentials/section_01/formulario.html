@@ -12,29 +12,21 @@
         <fieldset>
             <legend>Trabalhando com inputs</legend>
 
-            <label for="area">
-                Seu interesse maior é por qual área?
-            </label>
+            <label for="teacher">Professores:</label>
+            <select name="select-teacher" id="teacher" size="4" multiple>
+                <option value="">Selecione um professor</option>
+                <option value="Luan Santos">Luan Santos</option>
+                <option value="Moacir Garcia">Moacir Garcia</option>
+                <option value="Alessandro Feitoza">Alessandro Feitoza</option>
+                <option value="Jenifer Viera">Jenifer Viera</option>
+            </select>
+            <br><br>
 
-            <div>
-                <input type="checkbox" name="interesse" id="frontend" value="frontend">
-                <label for="frontend">Front-end Luan Monteiro</label>
+            <input type="search" name="search" id="search" placeholder="Digite sua busca">
 
-                <input type="checkbox" name="interesse" id="backend" value="backend">
-                <label for="backend">Back-end Regis Santos</label>
+            <br><br>
 
-                <input type="checkbox" name="interesse" id="designuiux" value="designuiux">
-                <label for="designuiux">Design UI/UX</label>
-            </div>
-
-            <br><br><br>
-
-            <h3>Deseja receber notificação da be.academy</h3>
-            <label for="yes">Sim</label>
-            <input type="radio" name="notification" id="yes" value="yes">
-
-            <label for="no">Não</label>
-            <input type="radio" name="notification" id="no" value="no">
+            <input type="file" name="file" id="file" value="file" accept=".pdf, audio/*, image/*">
 
             <br><br>
             <button type="submit">Enviar</button>
