@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS - At Rules e Combinators</title>
+</head>
+<body>
+    <!--
+        At-rules
+        * São regras relacionadas ao comportamento do CSS, começa com um sinal de @ seguido do identificador e do valor
+
+        São as seguintes:
+        @import serve para incluir um CSS externo.
+
+        @media são regras condicionais para vários dispositivos.
+
+        @keyframes serve para as animations do CSS
+
+        ** Combinadores (Combinators) **
+
+        Combinadores são utilizados para buscar e combinar seletores a fim de aplicar uma estilização.
+
+        Tipos:
+
+        ** Descendent combinator **
+
+        Identificado por um espaço entres os seletores.
+        - busca um elemento dentro de outro
+
+        body ul li
+
+        ** Child combinator **
+
+        Identificado pelo sinal > entre dois seletores
+        - Seleciona somente o elemento filho direto do pai
+        - Elementos depois do filho direto serão desconsiderado
+
+        ** Adjacent sibling combinator **
+        
+        Identificado pelo sinal de * entre dois seletores
+        - Busca somente o elemento do lado direto que é irmão direto da hierarquia
+    -->
+
+    <div>
+        <p>Teste</p>
+    </div>
+    <ul>
+        <li>Testando combinadores</li>
+    </ul>
+    <div>Outro formato</div>
+    <section>
+        <div>
+            <ul>
+                <li>Outro marcador</li>
+            </ul>
+        </div>
+    </section>
+
+    <h3>Título</h3>
+
+    <p>mais um parágrafo</p>
+
+    <button>Enviar</button>
+
+    <p>outro parágrafo</p>
+</body>
+</html>

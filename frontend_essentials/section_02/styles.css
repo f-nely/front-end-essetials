@@ -1,5 +1,4 @@
 /* aula_02.html */
-
 .container h1 {
     border: 1px solid #FF0000;
     padding: 24px;
@@ -24,3 +23,34 @@ strong {
     color: aqua;
 }
 
+/* aula_04 */
+/* Descendent combinator */
+/* body ul li {
+    background: green;
+    color: red;
+}
+
+body section div ul li {
+    background: #0088FA;
+    color: #88DDEE;
+} */
+
+/* Child combinator */
+body > ul {
+    background: #25A;
+    color: #FFF;
+}
+
+div > ul {
+    background: #25A16B;
+    color: #FFF;
+}
+
+/* irmão mais próximo do h3 que no caso é o parágrafo */
+h3 + p {
+    background: #DDD;
+}
+
+h3 ~ p {
+    color: #25A16B;
+}
