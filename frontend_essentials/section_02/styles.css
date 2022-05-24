@@ -5,3 +5,22 @@
     padding: 24px;
     margin: 32px;
 }
+
+/* aula_03 */
+h1 {
+    background: blue;
+    color: #FFF;
+}
+
+#super-title {
+    background: red;
+}
+
+strong {
+    color: blueviolet;
+}
+
+.my-text strong {
+    color: aqua;
+}
+
