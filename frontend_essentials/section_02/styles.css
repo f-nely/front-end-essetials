@@ -54,3 +54,32 @@ h3 + p {
 h3 ~ p {
     color: #25A16B;
 }
+
+/* aula_05 */
+h2 {
+    /* background: #25A; */
+    /* color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold; */
+    font: italic 100 58px 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background: red;
+    margin: 12px 80px 4px;
+    /* top right/left bottom */
+}
+
+.box-2 {
+    background: green;
+}
+
+.box-3 {
+    background: blue;
+}
