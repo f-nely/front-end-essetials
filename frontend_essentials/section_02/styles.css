@@ -56,19 +56,19 @@ h3 ~ p {
 }
 
 /* aula_05 */
-h2 {
+/* h2 {
     /* background: #25A; */
     /* color: #FFF;
     font-size: 48px;
     font-style: italic;
     font-weight: bold; */
-    font: italic 100 58px 'Arial', sans-serif;
-}
+    /* font: italic 100 58px 'Arial', sans-serif; 
+}*/
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 .box {
     background: red;
