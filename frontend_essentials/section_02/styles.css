@@ -83,3 +83,21 @@ h2 {
 .box-3 {
     background: blue;
 }
+
+/* aula_06 */
+.web {
+    font-size: 84px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #E0EFFD;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #265AFE;
+    border-radius: 6px;
+}
