@@ -25,3 +25,10 @@ console.log(multiplication(11, 6));
 setTimeout(function() {
     console.log('Vou levar 3 segundo para ser executado!');
 }, 3000);
+
+// Hoisting
+sayMyAge();
+
+function sayMyAge() {
+    console.log(31);
+}
